@@ -1,0 +1,36 @@
+{
+    "name": "cardecorator-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "generate-data": "node scripts/generate-products.js",
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+        "test": "jest",
+        "test:unit": "jest --watchAll=false",
+        "e2e": "playwright test --project=chromium"
+    },
+    "dependencies": {
+        "next": "15.x",
+        "react": "19.x",
+        "react-dom": "19.x",
+        "swr": "2.x"
+    },
+    "devDependencies": {
+        "typescript": "5.x",
+        "tailwindcss": "3.x",
+        "postcss": "8.x",
+        "autoprefixer": "10.x",
+        "jest": "29.x",
+        "@types/jest": "29.x",
+        "eslint": "8.x",
+        "ts-jest": "29.x",
+        "@playwright/test": "1.x",
+        "@testing-library/react": "14.x",
+        "@testing-library/jest-dom": "6.x",
+        "@testing-library/user-event": "14.x",
+        "@types/testing-library__react": "14.x"
+    }
+}

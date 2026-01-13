@@ -1,0 +1,33 @@
+name: Data Update (quarterly)
+
+on:
+  schedule:
+    - cron: '0 0 1 1,4,7,10 *'  # 00:00 UTC on 1 Jan / 1 Apr / 1 Jul / 1 Oct
+  workflow_dispatch: {}
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Run crawlers (mock)
+        run: |
+          python scripts/crawl-shopee.py
+          python scripts/crawl-lazada.py
+          python scripts/crawl-tiktok.py
+      - name: Merge products
+        run: |
+          python scripts/generate-json.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/products.json || true
+          git commit -m "data: quarterly update of products" || echo "no changes"
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
