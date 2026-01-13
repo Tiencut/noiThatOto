@@ -28,9 +28,7 @@
         "eslint": "8.x",
         "ts-jest": "29.x",
         "@playwright/test": "1.x",
-        "@testing-library/react": "14.x",
-        "@testing-library/jest-dom": "6.x",
-        "@testing-library/user-event": "14.x",
-        "@types/testing-library__react": "14.x"
+        "@types/react": "18.x",
+        "@types/react-dom": "18.x"
     }
 }

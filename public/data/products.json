@@ -1,171 +1,6102 @@
-[{
-        "id": "sp_001",
-        "name": "Thảm lót sàn cho CR-V - Mẫu 1",
-        "category": "Thảm lót sàn",
-        "carModels": ["CR-V"],
-        "description": "Thảm lót sàn chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 102331, "lazada": 108205, "tiktok": 110204, "original": 164198, "discount": "28%" },
-        "rating": { "score": 4.7, "count": 1111, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 290, "trend": "up" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Thảm%20lót%20sàn", "full": "https://source.unsplash.com/1600x900/?car,accessory,Thảm%20lót%20sàn", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_001", "lazada": "https://lazada.vn/product/sp_001", "tiktok": "https://tiktok.com/product/sp_001" },
-        "aiInfo": { "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "2.4 kg", "material": "Hợp chất tổng hợp", "thickness": "4mm", "waterproof": true, "odor_resistant": true, "warranty": "21 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["cr-v", "thảm-lót-sàn", "best-seller"]
+[
+  {
+    "id": "sp_001",
+    "name": "Vỏ vô lăng cho Kia Sorento - Mẫu 1",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Kia Sorento"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Kia Sorento. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 323640,
+      "lazada": 311744,
+      "tiktok": 299386,
+      "original": 426193,
+      "discount": "39%"
     },
-    {
-        "id": "sp_002",
-        "name": "Vỏ vô lăng cho Camry - Mẫu 2",
-        "category": "Vỏ vô lăng",
-        "carModels": ["Camry"],
-        "description": "Vỏ vô lăng chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 280615, "lazada": 299090, "tiktok": 248645, "original": 437470, "discount": "33%" },
-        "rating": { "score": 4.9, "count": 201, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 1537, "trend": "up" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Vỏ%20vô%20lăng", "full": "https://source.unsplash.com/1600x900/?car,accessory,Vỏ%20vô%20lăng", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_002", "lazada": "https://lazada.vn/product/sp_002", "tiktok": "https://tiktok.com/product/sp_002" },
-        "aiInfo": { "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "3.3 kg", "material": "Hợp chất tổng hợp", "thickness": "6mm", "waterproof": false, "odor_resistant": true, "warranty": "10 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["camry", "vỏ-vô-lăng", "best-seller"]
+    "rating": {
+      "score": 4.2,
+      "count": 948,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
     },
-    {
-        "id": "sp_003",
-        "name": "Tựa đầu ghế cho Ranger - Mẫu 3",
-        "category": "Tựa đầu ghế",
-        "carModels": ["Ranger"],
-        "description": "Tựa đầu ghế chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 143765, "lazada": 157674, "tiktok": 141954, "original": 196802, "discount": "28%" },
-        "rating": { "score": 4.7, "count": 215, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 331, "trend": "stable" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Tựa%20đầu%20ghế", "full": "https://source.unsplash.com/1600x900/?car,accessory,Tựa%20đầu%20ghế", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_003", "lazada": "https://lazada.vn/product/sp_003", "tiktok": "https://tiktok.com/product/sp_003" },
-        "aiInfo": { "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "3.1 kg", "material": "Hợp chất tổng hợp", "thickness": "3mm", "waterproof": true, "odor_resistant": true, "warranty": "18 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["ranger", "tựa-đầu-ghế", "best-seller"]
+    "sales": {
+      "monthly": 450,
+      "trend": "stable"
     },
-    {
-        "id": "sp_004",
-        "name": "Lót cửa cho Swift - Mẫu 4",
-        "category": "Lót cửa",
-        "carModels": ["Swift"],
-        "description": "Lót cửa chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 269740, "lazada": 274338, "tiktok": 233164, "original": 384596, "discount": "32%" },
-        "rating": { "score": 4.3, "count": 307, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 900, "trend": "stable" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Lót%20cửa", "full": "https://source.unsplash.com/1600x900/?car,accessory,Lót%20cửa", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_004", "lazada": "https://lazada.vn/product/sp_004", "tiktok": "https://tiktok.com/product/sp_004" },
-        "aiInfo": { "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "2.7 kg", "material": "Hợp chất tổng hợp", "thickness": "4mm", "waterproof": false, "odor_resistant": true, "warranty": "8 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["swift", "lót-cửa", "best-seller"]
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
     },
-    {
-        "id": "sp_005",
-        "name": "Camera hành trình cho Innova - Mẫu 5",
-        "category": "Camera hành trình",
-        "carModels": ["Innova"],
-        "description": "Camera hành trình chất lượng, phù hợp cho Innova. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 77401, "lazada": 113298, "tiktok": 73171, "original": 129968, "discount": "40%" },
-        "rating": { "score": 4.6, "count": 974, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 370, "trend": "up" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20hành%20trình", "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20hành%20trình", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_005", "lazada": "https://lazada.vn/product/sp_005", "tiktok": "https://tiktok.com/product/sp_005" },
-        "aiInfo": { "fitVehicle": "✅ Fit Innova (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "3.4 kg", "material": "Hợp chất tổng hợp", "thickness": "5mm", "waterproof": true, "odor_resistant": true, "warranty": "19 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["innova", "camera-hành-trình", "best-seller"]
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_001",
+      "lazada": "https://lazada.vn/product/sp_001",
+      "tiktok": "https://tiktok.com/product/sp_001"
     },
-    {
-        "id": "sp_006",
-        "name": "Bảng điều khiển cho Civic - Mẫu 6",
-        "category": "Bảng điều khiển",
-        "carModels": ["Civic"],
-        "description": "Bảng điều khiển chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 433478, "lazada": 493453, "tiktok": 342389, "original": 580837, "discount": "25%" },
-        "rating": { "score": 4.7, "count": 1092, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 1383, "trend": "up" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Bảng%20điều%20khiển", "full": "https://source.unsplash.com/1600x900/?car,accessory,Bảng%20điều%20khiển", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_006", "lazada": "https://lazada.vn/product/sp_006", "tiktok": "https://tiktok.com/product/sp_006" },
-        "aiInfo": { "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "2.6 kg", "material": "Hợp chất tổng hợp", "thickness": "6mm", "waterproof": true, "odor_resistant": true, "warranty": "12 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["civic", "bảng-điều-khiển", "best-seller"]
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Kia Sorento (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
     },
-    {
-        "id": "sp_007",
-        "name": "Túi lưới hàng cho Kia Sorento - Mẫu 7",
-        "category": "Túi lưới hàng",
-        "carModels": ["Kia Sorento"],
-        "description": "Túi lưới hàng chất lượng, phù hợp cho Kia Sorento. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 323845, "lazada": 366067, "tiktok": 276550, "original": 402561, "discount": "20%" },
-        "rating": { "score": 4.2, "count": 803, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 913, "trend": "stable" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Túi%20lưới%20hàng", "full": "https://source.unsplash.com/1600x900/?car,accessory,Túi%20lưới%20hàng", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_007", "lazada": "https://lazada.vn/product/sp_007", "tiktok": "https://tiktok.com/product/sp_007" },
-        "aiInfo": { "fitVehicle": "✅ Fit Kia Sorento (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "3.4 kg", "material": "Hợp chất tổng hợp", "thickness": "5mm", "waterproof": false, "odor_resistant": true, "warranty": "7 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["kia-sorento", "túi-lưới-hàng", "best-seller"]
+    "specs": {
+      "weight": "3.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "21 tháng"
     },
-    {
-        "id": "sp_008",
-        "name": "Đèn nội thất cho i10 - Mẫu 8",
-        "category": "Đèn nội thất",
-        "carModels": ["i10"],
-        "description": "Đèn nội thất chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 162015, "lazada": 156511, "tiktok": 164484, "original": 201123, "discount": "20%" },
-        "rating": { "score": 4.0, "count": 37, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 134, "trend": "up" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Đèn%20nội%20thất", "full": "https://source.unsplash.com/1600x900/?car,accessory,Đèn%20nội%20thất", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_008", "lazada": "https://lazada.vn/product/sp_008", "tiktok": "https://tiktok.com/product/sp_008" },
-        "aiInfo": { "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "3.0 kg", "material": "Hợp chất tổng hợp", "thickness": "2mm", "waterproof": false, "odor_resistant": true, "warranty": "12 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["i10", "đèn-nội-thất", "best-seller"]
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "kia sorento",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_002",
+    "name": "Tựa đầu ghế cho Camry - Mẫu 2",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 563001,
+      "lazada": 517717,
+      "tiktok": 632583,
+      "original": 837665,
+      "discount": "19%"
     },
-    {
-        "id": "sp_009",
-        "name": "Thảm lót sàn cho Ranger - Mẫu 9",
-        "category": "Thảm lót sàn",
-        "carModels": ["Ranger"],
-        "description": "Thảm lót sàn chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 199006, "lazada": 206742, "tiktok": 214661, "original": 300456, "discount": "32%" },
-        "rating": { "score": 4.7, "count": 350, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 1542, "trend": "up" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Thảm%20lót%20sàn", "full": "https://source.unsplash.com/1600x900/?car,accessory,Thảm%20lót%20sàn", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_009", "lazada": "https://lazada.vn/product/sp_009", "tiktok": "https://tiktok.com/product/sp_009" },
-        "aiInfo": { "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "1.8 kg", "material": "Hợp chất tổng hợp", "thickness": "5mm", "waterproof": true, "odor_resistant": true, "warranty": "22 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["ranger", "thảm-lót-sàn", "best-seller"]
+    "rating": {
+      "score": 5,
+      "count": 642,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
     },
-    {
-        "id": "sp_010",
-        "name": "Vỏ vô lăng cho City - Mẫu 10",
-        "category": "Vỏ vô lăng",
-        "carModels": ["City"],
-        "description": "Vỏ vô lăng chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
-        "price": { "shopee": 131233, "lazada": 128768, "tiktok": 148688, "original": 171870, "discount": "24%" },
-        "rating": { "score": 4.6, "count": 750, "reviews": ["Bền, lắp nhanh", "Chất lượng ổn", "Giá tốt"] },
-        "sales": { "monthly": 555, "trend": "stable" },
-        "image": { "thumb": "https://source.unsplash.com/featured/?car,accessory,Vỏ%20vô%20lăng", "full": "https://source.unsplash.com/1600x900/?car,accessory,Vỏ%20vô%20lăng", "gallery": [] },
-        "affiliate": { "shopee": "https://shopee.vn/product/sp_010", "lazada": "https://lazada.vn/product/sp_010", "tiktok": "https://tiktok.com/product/sp_010" },
-        "aiInfo": { "fitVehicle": "✅ Fit City (tham khảo chi tiết)", "material": "✅ Chất liệu bền", "installation": "✅ Lắp đơn giản, không cần khoan", "durability": "✅ Bền ~3 năm", "bestFor": "👌 Người cần tiện lợi" },
-        "specs": { "weight": "2.1 kg", "material": "Hợp chất tổng hợp", "thickness": "3mm", "waterproof": false, "odor_resistant": true, "warranty": "12 tháng" },
-        "createdAt": "2026-01-13",
-        "updatedAt": "2026-01-13",
-        "tags": ["city", "vỏ-vô-lăng", "best-seller"]
-    }
+    "sales": {
+      "monthly": 4536,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_002",
+      "lazada": "https://lazada.vn/product/sp_002",
+      "tiktok": "https://tiktok.com/product/sp_002"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "6 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_003",
+    "name": "Vỏ vô lăng cho i10 - Mẫu 3",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1083568,
+      "lazada": 1084493,
+      "tiktok": 1019593,
+      "original": 1539587,
+      "discount": "29%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 235,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3350,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_003",
+      "lazada": "https://lazada.vn/product/sp_003",
+      "tiktok": "https://tiktok.com/product/sp_003"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "21 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_004",
+    "name": "Thảm lót sàn cho City - Mẫu 4",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "City"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 942480,
+      "lazada": 909584,
+      "tiktok": 968724,
+      "original": 1400320,
+      "discount": "28%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 145,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 232,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_004",
+      "lazada": "https://lazada.vn/product/sp_004",
+      "tiktok": "https://tiktok.com/product/sp_004"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "21 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_005",
+    "name": "Camera hành trình cho Swift - Mẫu 5",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 430430,
+      "lazada": 400300,
+      "tiktok": 427746,
+      "original": 617860,
+      "discount": "23%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 669,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4263,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_005",
+      "lazada": "https://lazada.vn/product/sp_005",
+      "tiktok": "https://tiktok.com/product/sp_005"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "10 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_006",
+    "name": "Tựa đầu ghế cho Civic - Mẫu 6",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1219665,
+      "lazada": 1276833,
+      "tiktok": 1377487,
+      "original": 1818679,
+      "discount": "35%"
+    },
+    "rating": {
+      "score": 4.4,
+      "count": 449,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1696,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_006",
+      "lazada": "https://lazada.vn/product/sp_006",
+      "tiktok": "https://tiktok.com/product/sp_006"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "6 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_007",
+    "name": "Tựa đầu ghế cho CR-V - Mẫu 7",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 251473,
+      "lazada": 239129,
+      "tiktok": 256397,
+      "original": 333813,
+      "discount": "35%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 407,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2989,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_007",
+      "lazada": "https://lazada.vn/product/sp_007",
+      "tiktok": "https://tiktok.com/product/sp_007"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "18 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_008",
+    "name": "Đèn nội thất cho Ranger - Mẫu 8",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1134496,
+      "lazada": 1086963,
+      "tiktok": 1076471,
+      "original": 1889596,
+      "discount": "7%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 1333,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1934,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_008",
+      "lazada": "https://lazada.vn/product/sp_008",
+      "tiktok": "https://tiktok.com/product/sp_008"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_009",
+    "name": "Tựa đầu ghế cho Camry - Mẫu 9",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 964769,
+      "lazada": 944687,
+      "tiktok": 919317,
+      "original": 1484085,
+      "discount": "35%"
+    },
+    "rating": {
+      "score": 4.4,
+      "count": 697,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1754,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_009",
+      "lazada": "https://lazada.vn/product/sp_009",
+      "tiktok": "https://tiktok.com/product/sp_009"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_010",
+    "name": "Tựa đầu ghế cho City - Mẫu 10",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "City"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 323083,
+      "lazada": 298348,
+      "tiktok": 297959,
+      "original": 382051,
+      "discount": "10%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 1434,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4061,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_010",
+      "lazada": "https://lazada.vn/product/sp_010",
+      "tiktok": "https://tiktok.com/product/sp_010"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "22 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_011",
+    "name": "Thảm lót sàn cho Ranger - Mẫu 11",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 301635,
+      "lazada": 345001,
+      "tiktok": 306544,
+      "original": 496865,
+      "discount": "32%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 869,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 633,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_011",
+      "lazada": "https://lazada.vn/product/sp_011",
+      "tiktok": "https://tiktok.com/product/sp_011"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "15 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_012",
+    "name": "Camera hành trình cho Swift - Mẫu 12",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 201644,
+      "lazada": 232534,
+      "tiktok": 206563,
+      "original": 293925,
+      "discount": "11%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 676,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3460,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_012",
+      "lazada": "https://lazada.vn/product/sp_012",
+      "tiktok": "https://tiktok.com/product/sp_012"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_013",
+    "name": "Thảm lót sàn cho Hilux - Mẫu 13",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 798214,
+      "lazada": 747937,
+      "tiktok": 831368,
+      "original": 1278532,
+      "discount": "23%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 728,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3926,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_013",
+      "lazada": "https://lazada.vn/product/sp_013",
+      "tiktok": "https://tiktok.com/product/sp_013"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "24 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_014",
+    "name": "Vỏ vô lăng cho Civic - Mẫu 14",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 612212,
+      "lazada": 593203,
+      "tiktok": 673060,
+      "original": 739593,
+      "discount": "33%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 1277,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3276,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_014",
+      "lazada": "https://lazada.vn/product/sp_014",
+      "tiktok": "https://tiktok.com/product/sp_014"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_015",
+    "name": "Camera hành trình cho Hilux - Mẫu 15",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 250289,
+      "lazada": 279875,
+      "tiktok": 286273,
+      "original": 435611,
+      "discount": "5%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 1097,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 368,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_015",
+      "lazada": "https://lazada.vn/product/sp_015",
+      "tiktok": "https://tiktok.com/product/sp_015"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_016",
+    "name": "Thảm lót sàn cho Camry - Mẫu 16",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1043890,
+      "lazada": 1244291,
+      "tiktok": 1219390,
+      "original": 1404017,
+      "discount": "30%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 671,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4421,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_016",
+      "lazada": "https://lazada.vn/product/sp_016",
+      "tiktok": "https://tiktok.com/product/sp_016"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "11 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_017",
+    "name": "Túi lưới hàng cho Ranger - Mẫu 17",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 603685,
+      "lazada": 641616,
+      "tiktok": 549712,
+      "original": 901906,
+      "discount": "23%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 513,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1024,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_017",
+      "lazada": "https://lazada.vn/product/sp_017",
+      "tiktok": "https://tiktok.com/product/sp_017"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "15 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_018",
+    "name": "Thảm lót sàn cho City - Mẫu 18",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "City"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 372119,
+      "lazada": 388397,
+      "tiktok": 464764,
+      "original": 562241,
+      "discount": "40%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 1009,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2365,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_018",
+      "lazada": "https://lazada.vn/product/sp_018",
+      "tiktok": "https://tiktok.com/product/sp_018"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_019",
+    "name": "Túi lưới hàng cho City - Mẫu 19",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "City"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 837218,
+      "lazada": 909541,
+      "tiktok": 1043474,
+      "original": 1103470,
+      "discount": "33%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 231,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2295,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_019",
+      "lazada": "https://lazada.vn/product/sp_019",
+      "tiktok": "https://tiktok.com/product/sp_019"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_020",
+    "name": "Bảng điều khiển cho Swift - Mẫu 20",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 350029,
+      "lazada": 368632,
+      "tiktok": 317523,
+      "original": 425584,
+      "discount": "18%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 677,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1707,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_020",
+      "lazada": "https://lazada.vn/product/sp_020",
+      "tiktok": "https://tiktok.com/product/sp_020"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "24 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_021",
+    "name": "Lót cửa cho Hilux - Mẫu 21",
+    "category": "Lót cửa",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1064706,
+      "lazada": 1063113,
+      "tiktok": 933729,
+      "original": 1614532,
+      "discount": "6%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 1465,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1608,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_021",
+      "lazada": "https://lazada.vn/product/sp_021",
+      "tiktok": "https://tiktok.com/product/sp_021"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "24 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_022",
+    "name": "Đèn nội thất cho Ranger - Mẫu 22",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 633419,
+      "lazada": 678058,
+      "tiktok": 713526,
+      "original": 981957,
+      "discount": "31%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 1368,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4969,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_022",
+      "lazada": "https://lazada.vn/product/sp_022",
+      "tiktok": "https://tiktok.com/product/sp_022"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "24 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_023",
+    "name": "Thảm lót sàn cho i10 - Mẫu 23",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 485300,
+      "lazada": 514645,
+      "tiktok": 586753,
+      "original": 631131,
+      "discount": "16%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 469,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2968,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_023",
+      "lazada": "https://lazada.vn/product/sp_023",
+      "tiktok": "https://tiktok.com/product/sp_023"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "23 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_024",
+    "name": "Thảm lót sàn cho i10 - Mẫu 24",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 592282,
+      "lazada": 653239,
+      "tiktok": 562722,
+      "original": 737229,
+      "discount": "36%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 979,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4429,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_024",
+      "lazada": "https://lazada.vn/product/sp_024",
+      "tiktok": "https://tiktok.com/product/sp_024"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_025",
+    "name": "Camera hành trình cho i10 - Mẫu 25",
+    "category": "Camera hành trình",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1062826,
+      "lazada": 1208575,
+      "tiktok": 1104186,
+      "original": 1644425,
+      "discount": "33%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 350,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2490,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_025",
+      "lazada": "https://lazada.vn/product/sp_025",
+      "tiktok": "https://tiktok.com/product/sp_025"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "10 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_026",
+    "name": "Tựa đầu ghế cho Hilux - Mẫu 26",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 675274,
+      "lazada": 636243,
+      "tiktok": 648453,
+      "original": 1004822,
+      "discount": "40%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 875,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3352,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_026",
+      "lazada": "https://lazada.vn/product/sp_026",
+      "tiktok": "https://tiktok.com/product/sp_026"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "10 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_027",
+    "name": "Túi lưới hàng cho i10 - Mẫu 27",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 215416,
+      "lazada": 230244,
+      "tiktok": 224497,
+      "original": 385979,
+      "discount": "25%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 754,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 922,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_027",
+      "lazada": "https://lazada.vn/product/sp_027",
+      "tiktok": "https://tiktok.com/product/sp_027"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "17 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_028",
+    "name": "Tựa đầu ghế cho City - Mẫu 28",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "City"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 498119,
+      "lazada": 453744,
+      "tiktok": 462314,
+      "original": 674440,
+      "discount": "37%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 518,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2012,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_028",
+      "lazada": "https://lazada.vn/product/sp_028",
+      "tiktok": "https://tiktok.com/product/sp_028"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_029",
+    "name": "Bảng điều khiển cho Kia Sorento - Mẫu 29",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Kia Sorento"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Kia Sorento. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 766326,
+      "lazada": 762501,
+      "tiktok": 789310,
+      "original": 991626,
+      "discount": "20%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 1431,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1661,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_029",
+      "lazada": "https://lazada.vn/product/sp_029",
+      "tiktok": "https://tiktok.com/product/sp_029"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Kia Sorento (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "7 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "kia sorento",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_030",
+    "name": "Đèn nội thất cho Innova - Mẫu 30",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Innova"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Innova. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 493879,
+      "lazada": 465990,
+      "tiktok": 496502,
+      "original": 770118,
+      "discount": "20%"
+    },
+    "rating": {
+      "score": 4.8,
+      "count": 926,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2359,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_030",
+      "lazada": "https://lazada.vn/product/sp_030",
+      "tiktok": "https://tiktok.com/product/sp_030"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Innova (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "15 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "innova",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_031",
+    "name": "Lót cửa cho i10 - Mẫu 31",
+    "category": "Lót cửa",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 579799,
+      "lazada": 629023,
+      "tiktok": 682336,
+      "original": 799286,
+      "discount": "25%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 966,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4066,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_031",
+      "lazada": "https://lazada.vn/product/sp_031",
+      "tiktok": "https://tiktok.com/product/sp_031"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_032",
+    "name": "Túi lưới hàng cho Ranger - Mẫu 32",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 752762,
+      "lazada": 858786,
+      "tiktok": 899405,
+      "original": 1258469,
+      "discount": "10%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 1090,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3597,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_032",
+      "lazada": "https://lazada.vn/product/sp_032",
+      "tiktok": "https://tiktok.com/product/sp_032"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "21 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_033",
+    "name": "Đèn nội thất cho City - Mẫu 33",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "City"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 987311,
+      "lazada": 982647,
+      "tiktok": 1062030,
+      "original": 1743133,
+      "discount": "23%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 423,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 716,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_033",
+      "lazada": "https://lazada.vn/product/sp_033",
+      "tiktok": "https://tiktok.com/product/sp_033"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "24 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_034",
+    "name": "Lót cửa cho i10 - Mẫu 34",
+    "category": "Lót cửa",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 802893,
+      "lazada": 752629,
+      "tiktok": 842687,
+      "original": 1142736,
+      "discount": "11%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 1358,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4541,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_034",
+      "lazada": "https://lazada.vn/product/sp_034",
+      "tiktok": "https://tiktok.com/product/sp_034"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_035",
+    "name": "Vỏ vô lăng cho Civic - Mẫu 35",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1100759,
+      "lazada": 1175290,
+      "tiktok": 975193,
+      "original": 1330073,
+      "discount": "35%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 459,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3485,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_035",
+      "lazada": "https://lazada.vn/product/sp_035",
+      "tiktok": "https://tiktok.com/product/sp_035"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "12 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_036",
+    "name": "Vỏ vô lăng cho City - Mẫu 36",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "City"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 882392,
+      "lazada": 918898,
+      "tiktok": 913014,
+      "original": 1290402,
+      "discount": "29%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 1389,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1198,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_036",
+      "lazada": "https://lazada.vn/product/sp_036",
+      "tiktok": "https://tiktok.com/product/sp_036"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_037",
+    "name": "Camera hành trình cho Swift - Mẫu 37",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 755304,
+      "lazada": 801311,
+      "tiktok": 808461,
+      "original": 1139979,
+      "discount": "22%"
+    },
+    "rating": {
+      "score": 4.4,
+      "count": 1061,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4486,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_037",
+      "lazada": "https://lazada.vn/product/sp_037",
+      "tiktok": "https://tiktok.com/product/sp_037"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "7 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_038",
+    "name": "Thảm lót sàn cho Ranger - Mẫu 38",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 336520,
+      "lazada": 358244,
+      "tiktok": 372737,
+      "original": 516599,
+      "discount": "16%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 808,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1640,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_038",
+      "lazada": "https://lazada.vn/product/sp_038",
+      "tiktok": "https://tiktok.com/product/sp_038"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_039",
+    "name": "Tựa đầu ghế cho Camry - Mẫu 39",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 744083,
+      "lazada": 760156,
+      "tiktok": 724150,
+      "original": 837190,
+      "discount": "27%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 826,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3413,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_039",
+      "lazada": "https://lazada.vn/product/sp_039",
+      "tiktok": "https://tiktok.com/product/sp_039"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "7 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_040",
+    "name": "Tựa đầu ghế cho Ranger - Mẫu 40",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 972149,
+      "lazada": 1185150,
+      "tiktok": 1088387,
+      "original": 1553214,
+      "discount": "28%"
+    },
+    "rating": {
+      "score": 4.3,
+      "count": 1344,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2540,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_040",
+      "lazada": "https://lazada.vn/product/sp_040",
+      "tiktok": "https://tiktok.com/product/sp_040"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "23 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_041",
+    "name": "Tựa đầu ghế cho Camry - Mẫu 41",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1093389,
+      "lazada": 1165777,
+      "tiktok": 1149262,
+      "original": 1587468,
+      "discount": "14%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 1122,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1470,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_041",
+      "lazada": "https://lazada.vn/product/sp_041",
+      "tiktok": "https://tiktok.com/product/sp_041"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_042",
+    "name": "Túi lưới hàng cho Ranger - Mẫu 42",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1011268,
+      "lazada": 1027437,
+      "tiktok": 1089279,
+      "original": 1221882,
+      "discount": "6%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 1468,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3450,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_042",
+      "lazada": "https://lazada.vn/product/sp_042",
+      "tiktok": "https://tiktok.com/product/sp_042"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "23 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_043",
+    "name": "Đèn nội thất cho Innova - Mẫu 43",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Innova"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Innova. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1138094,
+      "lazada": 1232303,
+      "tiktok": 1406574,
+      "original": 1633257,
+      "discount": "39%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 1055,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3655,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_043",
+      "lazada": "https://lazada.vn/product/sp_043",
+      "tiktok": "https://tiktok.com/product/sp_043"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Innova (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "10 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "innova",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_044",
+    "name": "Đèn nội thất cho i10 - Mẫu 44",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 193469,
+      "lazada": 232332,
+      "tiktok": 192363,
+      "original": 337127,
+      "discount": "24%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 907,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 893,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_044",
+      "lazada": "https://lazada.vn/product/sp_044",
+      "tiktok": "https://tiktok.com/product/sp_044"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_045",
+    "name": "Bảng điều khiển cho City - Mẫu 45",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "City"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 933599,
+      "lazada": 960707,
+      "tiktok": 1148544,
+      "original": 1465776,
+      "discount": "33%"
+    },
+    "rating": {
+      "score": 4.4,
+      "count": 457,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3659,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_045",
+      "lazada": "https://lazada.vn/product/sp_045",
+      "tiktok": "https://tiktok.com/product/sp_045"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_046",
+    "name": "Đèn nội thất cho Ranger - Mẫu 46",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 487591,
+      "lazada": 490432,
+      "tiktok": 470700,
+      "original": 799031,
+      "discount": "38%"
+    },
+    "rating": {
+      "score": 4.4,
+      "count": 1436,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2815,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_046",
+      "lazada": "https://lazada.vn/product/sp_046",
+      "tiktok": "https://tiktok.com/product/sp_046"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "9 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_047",
+    "name": "Lót cửa cho City - Mẫu 47",
+    "category": "Lót cửa",
+    "carModels": [
+      "City"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 953347,
+      "lazada": 1173242,
+      "tiktok": 953344,
+      "original": 1434573,
+      "discount": "29%"
+    },
+    "rating": {
+      "score": 4.8,
+      "count": 908,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2348,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_047",
+      "lazada": "https://lazada.vn/product/sp_047",
+      "tiktok": "https://tiktok.com/product/sp_047"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_048",
+    "name": "Thảm lót sàn cho Civic - Mẫu 48",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1298395,
+      "lazada": 1283416,
+      "tiktok": 1377930,
+      "original": 1924254,
+      "discount": "34%"
+    },
+    "rating": {
+      "score": 4.1,
+      "count": 647,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4159,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_048",
+      "lazada": "https://lazada.vn/product/sp_048",
+      "tiktok": "https://tiktok.com/product/sp_048"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "22 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_049",
+    "name": "Camera hành trình cho Swift - Mẫu 49",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 542767,
+      "lazada": 574622,
+      "tiktok": 587652,
+      "original": 734158,
+      "discount": "29%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 1426,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2668,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_049",
+      "lazada": "https://lazada.vn/product/sp_049",
+      "tiktok": "https://tiktok.com/product/sp_049"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_050",
+    "name": "Lót cửa cho Civic - Mẫu 50",
+    "category": "Lót cửa",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 240019,
+      "lazada": 262203,
+      "tiktok": 249125,
+      "original": 399839,
+      "discount": "28%"
+    },
+    "rating": {
+      "score": 4.1,
+      "count": 1374,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3671,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_050",
+      "lazada": "https://lazada.vn/product/sp_050",
+      "tiktok": "https://tiktok.com/product/sp_050"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_051",
+    "name": "Camera hành trình cho CR-V - Mẫu 51",
+    "category": "Camera hành trình",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 244553,
+      "lazada": 276931,
+      "tiktok": 230339,
+      "original": 412659,
+      "discount": "15%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 848,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 471,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_051",
+      "lazada": "https://lazada.vn/product/sp_051",
+      "tiktok": "https://tiktok.com/product/sp_051"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "17 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_052",
+    "name": "Túi lưới hàng cho Civic - Mẫu 52",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1172194,
+      "lazada": 1225843,
+      "tiktok": 995611,
+      "original": 1676317,
+      "discount": "18%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 716,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1239,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_052",
+      "lazada": "https://lazada.vn/product/sp_052",
+      "tiktok": "https://tiktok.com/product/sp_052"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_053",
+    "name": "Thảm lót sàn cho Swift - Mẫu 53",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 765083,
+      "lazada": 794241,
+      "tiktok": 878834,
+      "original": 1253116,
+      "discount": "31%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 854,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3966,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_053",
+      "lazada": "https://lazada.vn/product/sp_053",
+      "tiktok": "https://tiktok.com/product/sp_053"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "21 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_054",
+    "name": "Túi lưới hàng cho Ranger - Mẫu 54",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 154902,
+      "lazada": 182281,
+      "tiktok": 182610,
+      "original": 257332,
+      "discount": "38%"
+    },
+    "rating": {
+      "score": 4.8,
+      "count": 376,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3717,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_054",
+      "lazada": "https://lazada.vn/product/sp_054",
+      "tiktok": "https://tiktok.com/product/sp_054"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "23 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_055",
+    "name": "Đèn nội thất cho Innova - Mẫu 55",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Innova"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Innova. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1075777,
+      "lazada": 1359170,
+      "tiktok": 1174113,
+      "original": 1560619,
+      "discount": "5%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 652,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3745,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_055",
+      "lazada": "https://lazada.vn/product/sp_055",
+      "tiktok": "https://tiktok.com/product/sp_055"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Innova (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "innova",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_056",
+    "name": "Thảm lót sàn cho CR-V - Mẫu 56",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 954384,
+      "lazada": 1145964,
+      "tiktok": 986690,
+      "original": 1321319,
+      "discount": "15%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 1269,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 276,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_056",
+      "lazada": "https://lazada.vn/product/sp_056",
+      "tiktok": "https://tiktok.com/product/sp_056"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_057",
+    "name": "Lót cửa cho Civic - Mẫu 57",
+    "category": "Lót cửa",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 503511,
+      "lazada": 579182,
+      "tiktok": 600425,
+      "original": 776772,
+      "discount": "27%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 239,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4944,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_057",
+      "lazada": "https://lazada.vn/product/sp_057",
+      "tiktok": "https://tiktok.com/product/sp_057"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "6 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_058",
+    "name": "Thảm lót sàn cho Civic - Mẫu 58",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 543705,
+      "lazada": 525184,
+      "tiktok": 605990,
+      "original": 906205,
+      "discount": "20%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 797,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2474,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_058",
+      "lazada": "https://lazada.vn/product/sp_058",
+      "tiktok": "https://tiktok.com/product/sp_058"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_059",
+    "name": "Lót cửa cho CR-V - Mẫu 59",
+    "category": "Lót cửa",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1031271,
+      "lazada": 1039209,
+      "tiktok": 1059089,
+      "original": 1364088,
+      "discount": "30%"
+    },
+    "rating": {
+      "score": 4.3,
+      "count": 734,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4708,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_059",
+      "lazada": "https://lazada.vn/product/sp_059",
+      "tiktok": "https://tiktok.com/product/sp_059"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "18 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_060",
+    "name": "Bảng điều khiển cho Innova - Mẫu 60",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Innova"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Innova. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 568105,
+      "lazada": 610970,
+      "tiktok": 577442,
+      "original": 758473,
+      "discount": "36%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 1162,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4148,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_060",
+      "lazada": "https://lazada.vn/product/sp_060",
+      "tiktok": "https://tiktok.com/product/sp_060"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Innova (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "10 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "innova",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_061",
+    "name": "Bảng điều khiển cho Hilux - Mẫu 61",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 813916,
+      "lazada": 834825,
+      "tiktok": 888087,
+      "original": 1003397,
+      "discount": "9%"
+    },
+    "rating": {
+      "score": 4.3,
+      "count": 463,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 700,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_061",
+      "lazada": "https://lazada.vn/product/sp_061",
+      "tiktok": "https://tiktok.com/product/sp_061"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_062",
+    "name": "Tựa đầu ghế cho Civic - Mẫu 62",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 836672,
+      "lazada": 907916,
+      "tiktok": 765586,
+      "original": 1166065,
+      "discount": "36%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 244,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 502,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_062",
+      "lazada": "https://lazada.vn/product/sp_062",
+      "tiktok": "https://tiktok.com/product/sp_062"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "12 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_063",
+    "name": "Thảm lót sàn cho City - Mẫu 63",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "City"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 853697,
+      "lazada": 1015731,
+      "tiktok": 871154,
+      "original": 1273545,
+      "discount": "22%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 31,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2396,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_063",
+      "lazada": "https://lazada.vn/product/sp_063",
+      "tiktok": "https://tiktok.com/product/sp_063"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_064",
+    "name": "Lót cửa cho CR-V - Mẫu 64",
+    "category": "Lót cửa",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 614875,
+      "lazada": 598494,
+      "tiktok": 661091,
+      "original": 937745,
+      "discount": "35%"
+    },
+    "rating": {
+      "score": 4.1,
+      "count": 1018,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2912,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_064",
+      "lazada": "https://lazada.vn/product/sp_064",
+      "tiktok": "https://tiktok.com/product/sp_064"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_065",
+    "name": "Lót cửa cho Hilux - Mẫu 65",
+    "category": "Lót cửa",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 790250,
+      "lazada": 718559,
+      "tiktok": 838171,
+      "original": 1008831,
+      "discount": "11%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 1445,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2716,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_065",
+      "lazada": "https://lazada.vn/product/sp_065",
+      "tiktok": "https://tiktok.com/product/sp_065"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_066",
+    "name": "Túi lưới hàng cho CR-V - Mẫu 66",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 256478,
+      "lazada": 292348,
+      "tiktok": 257587,
+      "original": 443678,
+      "discount": "23%"
+    },
+    "rating": {
+      "score": 4.8,
+      "count": 684,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 524,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_066",
+      "lazada": "https://lazada.vn/product/sp_066",
+      "tiktok": "https://tiktok.com/product/sp_066"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "17 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_067",
+    "name": "Lót cửa cho i10 - Mẫu 67",
+    "category": "Lót cửa",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 407745,
+      "lazada": 465395,
+      "tiktok": 388405,
+      "original": 719628,
+      "discount": "12%"
+    },
+    "rating": {
+      "score": 4.3,
+      "count": 1261,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2783,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_067",
+      "lazada": "https://lazada.vn/product/sp_067",
+      "tiktok": "https://tiktok.com/product/sp_067"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_068",
+    "name": "Bảng điều khiển cho Hilux - Mẫu 68",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1040875,
+      "lazada": 1096346,
+      "tiktok": 1251896,
+      "original": 1471063,
+      "discount": "31%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 969,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 299,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_068",
+      "lazada": "https://lazada.vn/product/sp_068",
+      "tiktok": "https://tiktok.com/product/sp_068"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "17 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_069",
+    "name": "Camera hành trình cho Civic - Mẫu 69",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 684615,
+      "lazada": 744456,
+      "tiktok": 657751,
+      "original": 971804,
+      "discount": "10%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 195,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 754,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_069",
+      "lazada": "https://lazada.vn/product/sp_069",
+      "tiktok": "https://tiktok.com/product/sp_069"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_070",
+    "name": "Bảng điều khiển cho Kia Sorento - Mẫu 70",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Kia Sorento"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Kia Sorento. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 529004,
+      "lazada": 651791,
+      "tiktok": 608210,
+      "original": 749816,
+      "discount": "34%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 1020,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2970,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_070",
+      "lazada": "https://lazada.vn/product/sp_070",
+      "tiktok": "https://tiktok.com/product/sp_070"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Kia Sorento (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "kia sorento",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_071",
+    "name": "Đèn nội thất cho i10 - Mẫu 71",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 668340,
+      "lazada": 664510,
+      "tiktok": 770372,
+      "original": 893561,
+      "discount": "7%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 1496,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4774,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_071",
+      "lazada": "https://lazada.vn/product/sp_071",
+      "tiktok": "https://tiktok.com/product/sp_071"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "21 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_072",
+    "name": "Thảm lót sàn cho i10 - Mẫu 72",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 610852,
+      "lazada": 568757,
+      "tiktok": 650972,
+      "original": 728047,
+      "discount": "19%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 310,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4688,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_072",
+      "lazada": "https://lazada.vn/product/sp_072",
+      "tiktok": "https://tiktok.com/product/sp_072"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "7 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_073",
+    "name": "Bảng điều khiển cho i10 - Mẫu 73",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1117169,
+      "lazada": 1347982,
+      "tiktok": 1151905,
+      "original": 1949339,
+      "discount": "8%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 1105,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3763,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_073",
+      "lazada": "https://lazada.vn/product/sp_073",
+      "tiktok": "https://tiktok.com/product/sp_073"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "22 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_074",
+    "name": "Tựa đầu ghế cho Swift - Mẫu 74",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 789587,
+      "lazada": 785689,
+      "tiktok": 936239,
+      "original": 1134167,
+      "discount": "12%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 659,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3723,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_074",
+      "lazada": "https://lazada.vn/product/sp_074",
+      "tiktok": "https://tiktok.com/product/sp_074"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_075",
+    "name": "Camera hành trình cho i10 - Mẫu 75",
+    "category": "Camera hành trình",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 177116,
+      "lazada": 197978,
+      "tiktok": 226285,
+      "original": 253473,
+      "discount": "39%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 1268,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4129,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_075",
+      "lazada": "https://lazada.vn/product/sp_075",
+      "tiktok": "https://tiktok.com/product/sp_075"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "18 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_076",
+    "name": "Đèn nội thất cho Camry - Mẫu 76",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1198131,
+      "lazada": 1179069,
+      "tiktok": 1275345,
+      "original": 1500780,
+      "discount": "28%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 828,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 215,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_076",
+      "lazada": "https://lazada.vn/product/sp_076",
+      "tiktok": "https://tiktok.com/product/sp_076"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_077",
+    "name": "Đèn nội thất cho CR-V - Mẫu 77",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 827207,
+      "lazada": 843365,
+      "tiktok": 965047,
+      "original": 1229156,
+      "discount": "33%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 943,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1968,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_077",
+      "lazada": "https://lazada.vn/product/sp_077",
+      "tiktok": "https://tiktok.com/product/sp_077"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "23 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_078",
+    "name": "Lót cửa cho Ranger - Mẫu 78",
+    "category": "Lót cửa",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Lót cửa chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 417934,
+      "lazada": 425811,
+      "tiktok": 477394,
+      "original": 652570,
+      "discount": "10%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 11,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2366,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,L%C3%B3t%20c%E1%BB%ADa",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_078",
+      "lazada": "https://lazada.vn/product/sp_078",
+      "tiktok": "https://tiktok.com/product/sp_078"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "8 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "lót-cửa",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_079",
+    "name": "Vỏ vô lăng cho Hilux - Mẫu 79",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 485099,
+      "lazada": 573764,
+      "tiktok": 467318,
+      "original": 639746,
+      "discount": "33%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 97,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 656,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_079",
+      "lazada": "https://lazada.vn/product/sp_079",
+      "tiktok": "https://tiktok.com/product/sp_079"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.5 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "6 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_080",
+    "name": "Vỏ vô lăng cho Hilux - Mẫu 80",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 997048,
+      "lazada": 1160686,
+      "tiktok": 982747,
+      "original": 1662800,
+      "discount": "10%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 1083,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2523,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_080",
+      "lazada": "https://lazada.vn/product/sp_080",
+      "tiktok": "https://tiktok.com/product/sp_080"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "9 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_081",
+    "name": "Bảng điều khiển cho Civic - Mẫu 81",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 421413,
+      "lazada": 523762,
+      "tiktok": 546099,
+      "original": 758793,
+      "discount": "11%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 1310,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 43,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_081",
+      "lazada": "https://lazada.vn/product/sp_081",
+      "tiktok": "https://tiktok.com/product/sp_081"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_082",
+    "name": "Thảm lót sàn cho Hilux - Mẫu 82",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 534224,
+      "lazada": 497102,
+      "tiktok": 600636,
+      "original": 833137,
+      "discount": "19%"
+    },
+    "rating": {
+      "score": 4.5,
+      "count": 598,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 544,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_082",
+      "lazada": "https://lazada.vn/product/sp_082",
+      "tiktok": "https://tiktok.com/product/sp_082"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "9 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_083",
+    "name": "Túi lưới hàng cho CR-V - Mẫu 83",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "CR-V"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho CR-V. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 764298,
+      "lazada": 695874,
+      "tiktok": 822732,
+      "original": 890662,
+      "discount": "7%"
+    },
+    "rating": {
+      "score": 4.4,
+      "count": 514,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 893,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_083",
+      "lazada": "https://lazada.vn/product/sp_083",
+      "tiktok": "https://tiktok.com/product/sp_083"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit CR-V (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "15 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "cr-v",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_084",
+    "name": "Bảng điều khiển cho Swift - Mẫu 84",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1077911,
+      "lazada": 1313409,
+      "tiktok": 1236909,
+      "original": 1898246,
+      "discount": "28%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 536,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1061,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_084",
+      "lazada": "https://lazada.vn/product/sp_084",
+      "tiktok": "https://tiktok.com/product/sp_084"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_085",
+    "name": "Tựa đầu ghế cho Ranger - Mẫu 85",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 852474,
+      "lazada": 920903,
+      "tiktok": 772802,
+      "original": 1071100,
+      "discount": "18%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 1190,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1300,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_085",
+      "lazada": "https://lazada.vn/product/sp_085",
+      "tiktok": "https://tiktok.com/product/sp_085"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.4 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "2mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "12 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_086",
+    "name": "Thảm lót sàn cho Swift - Mẫu 86",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 391489,
+      "lazada": 407513,
+      "tiktok": 354311,
+      "original": 581297,
+      "discount": "36%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 877,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 355,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_086",
+      "lazada": "https://lazada.vn/product/sp_086",
+      "tiktok": "https://tiktok.com/product/sp_086"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_087",
+    "name": "Tựa đầu ghế cho Camry - Mẫu 87",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 341163,
+      "lazada": 408758,
+      "tiktok": 401188,
+      "original": 539557,
+      "discount": "19%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 675,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2464,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_087",
+      "lazada": "https://lazada.vn/product/sp_087",
+      "tiktok": "https://tiktok.com/product/sp_087"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_088",
+    "name": "Đèn nội thất cho i10 - Mẫu 88",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "i10"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho i10. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 665996,
+      "lazada": 742900,
+      "tiktok": 642961,
+      "original": 996986,
+      "discount": "18%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 908,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3973,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_088",
+      "lazada": "https://lazada.vn/product/sp_088",
+      "tiktok": "https://tiktok.com/product/sp_088"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit i10 (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.3 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "14 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "i10",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_089",
+    "name": "Đèn nội thất cho City - Mẫu 89",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "City"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 1039312,
+      "lazada": 1144954,
+      "tiktok": 1011566,
+      "original": 1666033,
+      "discount": "9%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 445,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 872,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_089",
+      "lazada": "https://lazada.vn/product/sp_089",
+      "tiktok": "https://tiktok.com/product/sp_089"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "19 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_090",
+    "name": "Vỏ vô lăng cho Hilux - Mẫu 90",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Hilux"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Hilux. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 842737,
+      "lazada": 800022,
+      "tiktok": 799330,
+      "original": 1008497,
+      "discount": "13%"
+    },
+    "rating": {
+      "score": 5,
+      "count": 1295,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 577,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_090",
+      "lazada": "https://lazada.vn/product/sp_090",
+      "tiktok": "https://tiktok.com/product/sp_090"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Hilux (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.6 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "20 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "hilux",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_091",
+    "name": "Camera hành trình cho City - Mẫu 91",
+    "category": "Camera hành trình",
+    "carModels": [
+      "City"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 308919,
+      "lazada": 345619,
+      "tiktok": 307267,
+      "original": 426601,
+      "discount": "32%"
+    },
+    "rating": {
+      "score": 4,
+      "count": 35,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 350,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_091",
+      "lazada": "https://lazada.vn/product/sp_091",
+      "tiktok": "https://tiktok.com/product/sp_091"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "0.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "23 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_092",
+    "name": "Đèn nội thất cho Swift - Mẫu 92",
+    "category": "Đèn nội thất",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Đèn nội thất chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 648529,
+      "lazada": 718586,
+      "tiktok": 731125,
+      "original": 1005278,
+      "discount": "8%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 714,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 3860,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,%C4%90%C3%A8n%20n%E1%BB%99i%20th%E1%BA%A5t",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_092",
+      "lazada": "https://lazada.vn/product/sp_092",
+      "tiktok": "https://tiktok.com/product/sp_092"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "6 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "đèn-nội-thất",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_093",
+    "name": "Vỏ vô lăng cho Swift - Mẫu 93",
+    "category": "Vỏ vô lăng",
+    "carModels": [
+      "Swift"
+    ],
+    "description": "Vỏ vô lăng chất lượng, phù hợp cho Swift. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 607311,
+      "lazada": 712849,
+      "tiktok": 615078,
+      "original": 838703,
+      "discount": "39%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 1383,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1499,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,V%E1%BB%8F%20v%C3%B4%20l%C4%83ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_093",
+      "lazada": "https://lazada.vn/product/sp_093",
+      "tiktok": "https://tiktok.com/product/sp_093"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Swift (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "1.2 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "24 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "swift",
+      "vỏ-vô-lăng",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_094",
+    "name": "Thảm lót sàn cho Camry - Mẫu 94",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 785829,
+      "lazada": 831209,
+      "tiktok": 781911,
+      "original": 1451986,
+      "discount": "38%"
+    },
+    "rating": {
+      "score": 4.2,
+      "count": 76,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1751,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_094",
+      "lazada": "https://lazada.vn/product/sp_094",
+      "tiktok": "https://tiktok.com/product/sp_094"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.8 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "9 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_095",
+    "name": "Thảm lót sàn cho City - Mẫu 95",
+    "category": "Thảm lót sàn",
+    "carModels": [
+      "City"
+    ],
+    "description": "Thảm lót sàn chất lượng, phù hợp cho City. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 591184,
+      "lazada": 677529,
+      "tiktok": 709187,
+      "original": 1097612,
+      "discount": "5%"
+    },
+    "rating": {
+      "score": 5.1,
+      "count": 150,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 1309,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Th%E1%BA%A3m%20l%C3%B3t%20s%C3%A0n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_095",
+      "lazada": "https://lazada.vn/product/sp_095",
+      "tiktok": "https://tiktok.com/product/sp_095"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit City (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "8 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "city",
+      "thảm-lót-sàn",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_096",
+    "name": "Bảng điều khiển cho Camry - Mẫu 96",
+    "category": "Bảng điều khiển",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Bảng điều khiển chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 305778,
+      "lazada": 345327,
+      "tiktok": 333687,
+      "original": 456228,
+      "discount": "31%"
+    },
+    "rating": {
+      "score": 4.6,
+      "count": 524,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4017,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,B%E1%BA%A3ng%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_096",
+      "lazada": "https://lazada.vn/product/sp_096",
+      "tiktok": "https://tiktok.com/product/sp_096"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.0 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "4mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "10 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "bảng-điều-khiển",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_097",
+    "name": "Tựa đầu ghế cho Ranger - Mẫu 97",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Ranger"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Ranger. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 279026,
+      "lazada": 296222,
+      "tiktok": 323892,
+      "original": 393451,
+      "discount": "10%"
+    },
+    "rating": {
+      "score": 4.9,
+      "count": 1130,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2555,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_097",
+      "lazada": "https://lazada.vn/product/sp_097",
+      "tiktok": "https://tiktok.com/product/sp_097"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Ranger (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "5mm",
+      "waterproof": false,
+      "odor_resistant": true,
+      "warranty": "13 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "ranger",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_098",
+    "name": "Camera hành trình cho Civic - Mẫu 98",
+    "category": "Camera hành trình",
+    "carModels": [
+      "Civic"
+    ],
+    "description": "Camera hành trình chất lượng, phù hợp cho Civic. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 306842,
+      "lazada": 314121,
+      "tiktok": 299870,
+      "original": 430483,
+      "discount": "5%"
+    },
+    "rating": {
+      "score": 5.2,
+      "count": 543,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4177,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,Camera%20h%C3%A0nh%20tr%C3%ACnh",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_098",
+      "lazada": "https://lazada.vn/product/sp_098",
+      "tiktok": "https://tiktok.com/product/sp_098"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Civic (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "3.1 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "22 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "civic",
+      "camera-hành-trình",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_099",
+    "name": "Tựa đầu ghế cho Camry - Mẫu 99",
+    "category": "Tựa đầu ghế",
+    "carModels": [
+      "Camry"
+    ],
+    "description": "Tựa đầu ghế chất lượng, phù hợp cho Camry. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 839910,
+      "lazada": 771725,
+      "tiktok": 827865,
+      "original": 1216970,
+      "discount": "31%"
+    },
+    "rating": {
+      "score": 4.8,
+      "count": 308,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 4157,
+      "trend": "up"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%E1%BB%B1a%20%C4%91%E1%BA%A7u%20gh%E1%BA%BF",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_099",
+      "lazada": "https://lazada.vn/product/sp_099",
+      "tiktok": "https://tiktok.com/product/sp_099"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Camry (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.9 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "3mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "15 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "camry",
+      "tựa-đầu-ghế",
+      "best-seller"
+    ]
+  },
+  {
+    "id": "sp_100",
+    "name": "Túi lưới hàng cho Innova - Mẫu 100",
+    "category": "Túi lưới hàng",
+    "carModels": [
+      "Innova"
+    ],
+    "description": "Túi lưới hàng chất lượng, phù hợp cho Innova. Mẫu nhẹ, dễ lắp.",
+    "price": {
+      "shopee": 138550,
+      "lazada": 143423,
+      "tiktok": 164290,
+      "original": 176309,
+      "discount": "11%"
+    },
+    "rating": {
+      "score": 4.7,
+      "count": 1223,
+      "reviews": [
+        "Bền, lắp nhanh",
+        "Chất lượng ổn",
+        "Giá tốt"
+      ]
+    },
+    "sales": {
+      "monthly": 2695,
+      "trend": "stable"
+    },
+    "image": {
+      "thumb": "https://source.unsplash.com/featured/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "full": "https://source.unsplash.com/1600x900/?car,accessory,T%C3%BAi%20l%C6%B0%E1%BB%9Bi%20h%C3%A0ng",
+      "gallery": []
+    },
+    "affiliate": {
+      "shopee": "https://shopee.vn/product/sp_100",
+      "lazada": "https://lazada.vn/product/sp_100",
+      "tiktok": "https://tiktok.com/product/sp_100"
+    },
+    "aiInfo": {
+      "fitVehicle": "✅ Fit Innova (tham khảo chi tiết)",
+      "material": "✅ Chất liệu bền",
+      "installation": "✅ Lắp đơn giản, không cần khoan",
+      "durability": "✅ Bền ~3 năm",
+      "bestFor": "👌 Người cần tiện lợi"
+    },
+    "specs": {
+      "weight": "2.7 kg",
+      "material": "Hợp chất tổng hợp",
+      "thickness": "6mm",
+      "waterproof": true,
+      "odor_resistant": true,
+      "warranty": "16 tháng"
+    },
+    "createdAt": "2026-01-13",
+    "updatedAt": "2026-01-13",
+    "tags": [
+      "innova",
+      "túi-lưới-hàng",
+      "best-seller"
+    ]
+  }
 ]

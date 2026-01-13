@@ -6,6 +6,15 @@ Cài đặt các công cụ dev và chạy local
 
    npm install
 
+   Nếu gặp lỗi peer-deps (ví dụ do React 19 vs testing libs), có thể chạy tạm thời với:
+
+   npm install --legacy-peer-deps
+
+   hoặc
+
+   npm install --force
+
+   Lưu ý: `--legacy-peer-deps` là workaround để phát triển nhanh; để lâu dài nên chỉnh `package.json` để tương thích các phiên bản.
 2. Tạo data mẫu (100 products)
 
    npm run generate-data

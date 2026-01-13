@@ -31,6 +31,7 @@ export default function ProductsPage() {
     if (filters.q || q) params.set('q', filters.q || q);
     if (filters.categories && filters.categories.length) params.set('categories', filters.categories.join(','));
     if (filters.carModel) params.set('carModel', filters.carModel);
+    if (filters.brand) params.set('brand', filters.brand);
     if (filters.minPrice) params.set('minPrice', String(filters.minPrice));
     if (filters.maxPrice) params.set('maxPrice', String(filters.maxPrice));
     if (filters.minRating) params.set('minRating', String(filters.minRating));

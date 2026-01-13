@@ -1,16 +1,17 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
-
-const PriceCompare = dynamic(() => import('../../../../components/Product/PriceCompare'), { ssr: false });
+import PriceCompare from '../../../components/Product/PriceCompare';
 
 async function getProduct(id: string) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/products`);
+  const base = process.env.NEXT_PUBLIC_BASE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+  const url = new URL('/api/products', base).toString();
+  const res = await fetch(url);
   const products = await res.json();
   return products.find((p: any) => p.id === id);
 }
 
 export default async function ProductDetail({ params }: { params: { id: string } }) {
-  const id = params.id;
+  // `params` may be a sync/awaitable object in some Next.js setups — await to satisfy framework requirements
+  const { id } = await Promise.resolve(params) as { id: string };
   const product = await getProduct(id);
 
   if (!product) return <div>Sản phẩm không tìm thấy</div>;

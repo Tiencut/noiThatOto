@@ -1,5 +1,5 @@
-"use client";
-import React, { useEffect, useState } from 'react';
+"use client";  // ← BỎ COMMENT
+import { useEffect, useState } from 'react';  // ← BỎ COMMENT
 
 interface Category {
   id: number;
@@ -11,14 +11,21 @@ interface CarModel {
   name: string;
 }
 
+interface Brand {
+  id: number;
+  name: string;
+}
+
 type Props = { onApply: (filters: any) => void };
 
 export default function FilterPanel({ onApply }: Props) {
   const [categories, setCategories] = useState<Category[]>([]);
   const [carModels, setCarModels] = useState<CarModel[]>([]);
+  const [brands, setBrands] = useState<Brand[]>([]);
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedCarModel, setSelectedCarModel] = useState<string>('');
+  const [selectedBrand, setSelectedBrand] = useState<string>('');
   const [minPrice, setMinPrice] = useState<number | undefined>(undefined);
   const [maxPrice, setMaxPrice] = useState<number | undefined>(undefined);
   const [minRating, setMinRating] = useState<number | undefined>(undefined);
@@ -26,18 +33,60 @@ export default function FilterPanel({ onApply }: Props) {
   useEffect(() => {
     fetch('/data/categories.json')
       .then((r) => r.json())
-      .then((data) => setCategories(data))
+      .then((data) => {
+        // data may be an array of strings or objects; normalize to {id,name}
+        if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'string') {
+          setCategories(data.map((name: string, idx: number) => ({ id: idx + 1, name })));
+        } else if (Array.isArray(data)) {
+          setCategories(data as Category[]);
+        } else {
+          setCategories([]);
+        }
+      })
       .catch((err) => {
         console.error('Lỗi tải categories:', err);
         setCategories([]);
       });
-    
+
     fetch('/data/car-models.json')
       .then((r) => r.json())
-      .then((data) => setCarModels(data))
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'string') {
+          setCarModels(data.map((name: string, idx: number) => ({ id: idx + 1, name })));
+        } else if (Array.isArray(data)) {
+          setCarModels(data as CarModel[]);
+        } else {
+          setCarModels([]);
+        }
+      })
       .catch((err) => {
         console.error('Lỗi tải car models:', err);
         setCarModels([]);
+      });
+
+    // Try to load brands.json; if missing, infer from car models
+    fetch('/data/brands.json')
+      .then((r) => r.json())
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'string') {
+          setBrands(data.map((name: string, idx: number) => ({ id: idx + 1, name })));
+        } else if (Array.isArray(data)) {
+          setBrands(data as Brand[]);
+        } else {
+          setBrands([]);
+        }
+      })
+      .catch(() => {
+        // fallback: infer brand from carModels first token
+        try {
+          setBrands((prev) => {
+            if (prev.length > 0) return prev;
+            const inferred = Array.from(new Set(carModels.map((m) => m.name.split(' ')[0]))).map((name, idx) => ({ id: idx + 1, name }));
+            return inferred;
+          });
+        } catch (e) {
+          setBrands([]);
+        }
       });
   }, []);
 
@@ -46,12 +95,13 @@ export default function FilterPanel({ onApply }: Props) {
   }
 
   function apply() {
-    onApply({ categories: selectedCategories, carModel: selectedCarModel, minPrice, maxPrice, minRating });
+    onApply({ categories: selectedCategories, brand: selectedBrand, carModel: selectedCarModel, minPrice, maxPrice, minRating });
   }
 
   function reset() {
     setSelectedCategories([]);
     setSelectedCarModel('');
+    setSelectedBrand('');
     setMinPrice(undefined);
     setMaxPrice(undefined);
     setMinRating(undefined);
@@ -60,6 +110,21 @@ export default function FilterPanel({ onApply }: Props) {
 
   return (
     <div className="bg-white p-4 rounded shadow-sm">
+      {/* Hãng xe */}
+      <div className="mb-4">
+        <h4 className="font-semibold text-gray-900">Hãng xe</h4>
+        <select
+          value={selectedBrand}
+          onChange={(e) => setSelectedBrand(e.target.value)}
+          className="mt-2 w-full border border-gray-300 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+          <option value="">Tất cả</option>
+          {brands.map((b) => (
+            <option key={b.id} value={b.name}>{b.name}</option>
+          ))}
+        </select>
+      </div>
+
       {/* Model xe */}
       <div className="mb-4">
         <h4 className="font-semibold text-gray-900">Model xe</h4>

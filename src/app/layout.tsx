@@ -1,9 +1,6 @@
 import './styles/globals.css';
-import React from 'react';
-import dynamic from 'next/dynamic';
-
-const Header = dynamic(() => import('../components/Layout/Header'), { ssr: false });
-const Footer = dynamic(() => import('../components/Layout/Footer'), { ssr: false });
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
 
 export const metadata = {
   title: 'CarDecor Oto Affiliate',
@@ -12,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="vi">
+    <html lang="vi" suppressHydrationWarning>
       <head>
         {/* GA4 placeholder - add NEXT_PUBLIC_GA_ID in env for real tracking */}
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID || 'G-XXXXXXX'}`}></script>
@@ -29,12 +26,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <div className="min-h-screen flex flex-col">
-          {/* Header component */}
-          {/* @ts-ignore - client component in layout */}
           <Header />
-
-          <main className="flex-1 container py-8">{children}</main>
-
+          <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
           <Footer />
         </div>
       </body>
