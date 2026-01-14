@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Toyota", "icon": "/icons/toyota.png"},
+  {"id": 2, "name": "Ford", "icon": "/icons/ford.png"},
+  {"id": 3, "name": "Honda", "icon": "/icons/honda.png"},
+  {"id": 4, "name": "Hyundai", "icon": "/icons/hyundai.png"},
+  {"id": 5, "name": "Kia", "icon": "/icons/kia.png"},
+  {"id": 6, "name": "Mazda", "icon": "/icons/mazda.png"},
+  {"id": 7, "name": "Mercedes-Benz", "icon": "/icons/mercedes.png"},
+  {"id": 8, "name": "BMW", "icon": "/icons/bmw.png"},
+  {"id": 9, "name": "Audi", "icon": "/icons/audi.png"},
+  {"id": 10, "name": "VinFast", "icon": "/icons/vinfast.png"}
+]

@@ -9,7 +9,7 @@ async function getProduct(id: string) {
   return products.find((p: any) => p.id === id);
 }
 
-export default async function ProductDetail({ params }: { params: { id: string } }) {
+export default async function ProductDetail({ params }: { params: Promise<{ id: string }> }) {
   // `params` may be a sync/awaitable object in some Next.js setups — await to satisfy framework requirements
   const { id } = await Promise.resolve(params) as { id: string };
   const product = await getProduct(id);

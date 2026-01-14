@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default async function ModelProducts({ params }: { params: { model: string } }) {
-  const model = params.model;
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/filter?carModel=${encodeURIComponent(model)}`);
+export default async function ModelProducts({ params }: { params: Promise<{ model: string }> }) {
+  const { model } = await params;
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/filter?carModel=${encodeURIComponent(model)}`);
   const products = await res.json();
 
   return (

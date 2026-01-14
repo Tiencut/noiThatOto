@@ -1,15 +1,6 @@
 "use client";  // ← BỎ COMMENT
-import { useEffect, useState } from 'react';  // ← BỎ COMMENT
-
-interface Category {
-  id: number;
-  name: string;
-}
-
-interface CarModel {
-  id: number;
-  name: string;
-}
+import { useEffect, useState } from 'react';
+import CategoryFilter from './CategoryFilter';  // ← BỎ COMMENT
 
 interface Brand {
   id: number;
@@ -25,7 +16,8 @@ export default function FilterPanel({ onApply }: Props) {
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedCarModel, setSelectedCarModel] = useState<string>('');
-  const [selectedBrand, setSelectedBrand] = useState<string>('');
+  const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
+  const [brandSearch, setBrandSearch] = useState<string>('');
   const [minPrice, setMinPrice] = useState<number | undefined>(undefined);
   const [maxPrice, setMaxPrice] = useState<number | undefined>(undefined);
   const [minRating, setMinRating] = useState<number | undefined>(undefined);
@@ -36,7 +28,7 @@ export default function FilterPanel({ onApply }: Props) {
       .then((data) => {
         // data may be an array of strings or objects; normalize to {id,name}
         if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'string') {
-          setCategories(data.map((name: string, idx: number) => ({ id: idx + 1, name })));
+          setCategories(data.map((name: string, idx: number) => ({ id: idx + 1, name, icon: '', why: '', buyWhen: '' })));
         } else if (Array.isArray(data)) {
           setCategories(data as Category[]);
         } else {
@@ -91,17 +83,34 @@ export default function FilterPanel({ onApply }: Props) {
   }, []);
 
   function toggleCategory(catName: string) {
-    setSelectedCategories((s) => (s.includes(catName) ? s.filter((x) => x !== catName) : [...s, catName]));
+    // compute next selection first to avoid reading stale state when calling onApply
+    setSelectedCategories((s) => {
+      const next = s.includes(catName) ? s.filter((x) => x !== catName) : [...s, catName];
+      return next;
+    });
+    // call onApply with the new selection (read it from the event calculation, not from state)
+    const next = selectedCategories.includes(catName) ? selectedCategories.filter((x) => x !== catName) : [...selectedCategories, catName];
+    onApply({ categories: next, brands: selectedBrands, carModel: selectedCarModel, minPrice, maxPrice, minRating });
+  }
+
+  function toggleBrand(brandName: string) {
+    setSelectedBrands((s) => {
+      const next = s.includes(brandName) ? s.filter((x) => x !== brandName) : [...s, brandName];
+      return next;
+    });
+    const next = selectedBrands.includes(brandName) ? selectedBrands.filter((x) => x !== brandName) : [...selectedBrands, brandName];
+    onApply({ categories: selectedCategories, brands: next, carModel: selectedCarModel, minPrice, maxPrice, minRating });
   }
 
   function apply() {
-    onApply({ categories: selectedCategories, brand: selectedBrand, carModel: selectedCarModel, minPrice, maxPrice, minRating });
+    onApply({ categories: selectedCategories, brands: selectedBrands, carModel: selectedCarModel, minPrice, maxPrice, minRating });
   }
 
   function reset() {
     setSelectedCategories([]);
     setSelectedCarModel('');
-    setSelectedBrand('');
+    setSelectedBrands([]);
+    setBrandSearch('');
     setMinPrice(undefined);
     setMaxPrice(undefined);
     setMinRating(undefined);
@@ -113,16 +122,37 @@ export default function FilterPanel({ onApply }: Props) {
       {/* Hãng xe */}
       <div className="mb-4">
         <h4 className="font-semibold text-gray-900">Hãng xe</h4>
-        <select
-          value={selectedBrand}
-          onChange={(e) => setSelectedBrand(e.target.value)}
+        <input
+          placeholder="Tìm hãng..."
+          value={brandSearch}
+          onChange={(e) => setBrandSearch(e.target.value)}
           className="mt-2 w-full border border-gray-300 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">Tất cả</option>
-          {brands.map((b) => (
-            <option key={b.id} value={b.name}>{b.name}</option>
-          ))}
-        </select>
+        />
+
+        <div className="mt-2 max-h-40 overflow-auto border border-gray-100 rounded">
+          {brands
+            .filter((b) => (brandSearch ? b.name.toLowerCase().includes(brandSearch.toLowerCase()) : true))
+            .map((b) => (
+                <label key={b.id} className="flex items-center gap-2 px-2 py-2 hover:bg-gray-50">
+                <input type="checkbox" checked={selectedBrands.includes(b.name)} onChange={() => toggleBrand(b.name)} className="w-4 h-4" />
+                {/* Try local icon first; if it 404s, fallback to server Brandfetch proxy */}
+                <img
+                  src={`/api/brand-logo?name=${encodeURIComponent(b.name)}`}
+                  alt={b.name}
+                  className="w-5 h-5 object-contain"
+                  onError={(e) => {
+                    const img = e.currentTarget as HTMLImageElement;
+                    if (!img.dataset.fallback) {
+                      img.dataset.fallback = '1';
+                      img.src = '/icons/default-brand.svg';
+                    }
+                  }}
+                />
+                <span className="text-sm">{b.name}</span>
+              </label>
+            ))}
+          {brands.length === 0 && <div className="p-2 text-sm text-gray-500">Không có hãng</div>}
+        </div>
       </div>
 
       {/* Model xe */}
@@ -143,24 +173,11 @@ export default function FilterPanel({ onApply }: Props) {
       {/* Loại phụ kiện */}
       <div className="mb-4">
         <h4 className="font-semibold text-gray-900">Loại phụ kiện</h4>
-        <div className="mt-2 grid grid-cols-2 gap-2">
-          {categories.map((c) => (
-            <label 
-              key={c.id} 
-              className={`text-sm inline-flex items-center gap-2 cursor-pointer transition ${
-                selectedCategories.includes(c.name) ? 'font-medium text-blue-600' : 'text-gray-700'
-              }`}
-            >
-              <input 
-                type="checkbox" 
-                checked={selectedCategories.includes(c.name)} 
-                onChange={() => toggleCategory(c.name)}
-                className="w-4 h-4 cursor-pointer"
-              />
-              {c.name}
-            </label>
-          ))}
-        </div>
+        <CategoryFilter
+          categories={categories}
+          selected={selectedCategories}
+          toggle={toggleCategory}
+        />
       </div>
 
       {/* Giá */}

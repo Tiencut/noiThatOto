@@ -11,18 +11,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="vi" suppressHydrationWarning>
       <head>
-        {/* GA4 placeholder - add NEXT_PUBLIC_GA_ID in env for real tracking */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID || 'G-XXXXXXX'}`}></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA_ID || 'G-XXXXXXX'}');
-        `
-          }}
-        />
+        {/* GA4 placeholder - add NEXT_PUBLIC_GA_ID in env for real tracking; only load in production */}
+        {process.env.NODE_ENV === 'production' && process.env.NEXT_PUBLIC_GA_ID ? (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+          `
+              }}
+            />
+          </>
+        ) : null}
       </head>
       <body>
         <div className="min-h-screen flex flex-col">

@@ -1,16 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const categories = [
-    'Thảm lót sàn',
-    'Vỏ vô lăng',
-    'Tựa đầu ghế',
-    'Lót cửa',
-    'Camera hành trình',
-    'Bảng điều khiển',
-    'Túi lưới hàng',
-    'Đèn nội thất'
-];
+const categories = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'categories.json'), 'utf8'));
 
 const carModels = ['Ranger', 'Hilux', 'CR-V', 'Camry', 'Innova', 'Swift', 'City', 'Civic', 'Kia Sorento', 'i10'];
 
@@ -20,7 +11,8 @@ function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
 const products = [];
 for (let i = 1; i <= 100; i++) {
-    const category = pick(categories);
+    const categoryObj = pick(categories);
+    const category = categoryObj.name;
     const model = pick(carModels);
     const id = `sp_${String(i).padStart(3, '0')}`;
     const basePrice = randInt(120000, 1200000);

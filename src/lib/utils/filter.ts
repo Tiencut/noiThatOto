@@ -1,6 +1,7 @@
 export type Filters = {
   q?: string;
   categories?: string[];
+  brands?: string[];
   carModel?: string;
   minPrice?: number;
   maxPrice?: number;
@@ -23,6 +24,21 @@ export function applyFilters(products: any[], filters: Filters) {
 
   if (filters.categories && filters.categories.length > 0) {
     res = res.filter((p) => filters.categories!.includes(p.category));
+  }
+
+  if (filters.brands && filters.brands.length > 0) {
+    const bs = filters.brands.map((b) => b.toLowerCase());
+    res = res.filter((p) => {
+      // 1) if product has a brand field
+      if (p.brand && bs.includes(String(p.brand).toLowerCase())) return true;
+      // 2) if product name mentions the brand
+      if (p.name && bs.some((b) => String(p.name).toLowerCase().includes(b))) return true;
+      // 3) if any product tag matches
+      if (p.tags && Array.isArray(p.tags) && p.tags.some((t: string) => bs.includes(t.toLowerCase()))) return true;
+      // 4) if any car model string contains the brand name (e.g., "Kia Sorento")
+      if (p.carModels && Array.isArray(p.carModels) && p.carModels.some((m: string) => bs.some((b) => m.toLowerCase().includes(b)))) return true;
+      return false;
+    });
   }
 
   if (filters.carModel) {

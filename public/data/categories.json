@@ -1,10 +1,508 @@
-[
-  "Thảm lót sàn",
-  "Vỏ vô lăng",
-  "Tựa đầu ghế",
-  "Lót cửa",
-  "Camera hành trình",
-  "Bảng điều khiển",
-  "Túi lưới hàng",
-  "Đèn nội thất"
+[{
+        "id": 1,
+        "name": "Thảm lót sàn",
+        "priority": "MUST",
+        "icon": "🟥",
+        "description": "Bảo vệ sàn xe từ bụi, nước, bẩn",
+        "benefits": [
+            "Dễ vệ sinh, tháo lắp đơn giản",
+            "Bảo vệ sơn sàn xe",
+            "Chống trơn trượt khi lái",
+            "Cách âm, giảm tiếng ồn"
+        ],
+        "why": "Sàn xe dễ bẩn, cần bảo vệ ngay",
+        "buyWhen": "Ngay sau khi mua xe",
+        "priceRange": "300k - 800k",
+        "types": [
+            "Cao su chống nước",
+            "Nhung dệt, cao cấp",
+            "5D / 6D full cover"
+        ],
+        "topBrand": [
+            "Tâm Phát",
+            "Jiaorenmi",
+            "INOAC"
+        ],
+        "durability": "3-5 năm",
+        "installation": "Tự lắp được, 10 phút"
+    },
+    {
+        "id": 2,
+        "name": "Vỏ vô lăng",
+        "priority": "MUST",
+        "icon": "🎡",
+        "description": "Bọc vô lăng để tăng độ bám, thoải mái",
+        "benefits": [
+            "Tăng độ bám tay, an toàn lái",
+            "Giảm mệt tay, thoải mái khi lái xe dài",
+            "Chống mồ hôi, trơn trượt",
+            "Nâng cấp thẩm mỹ cabin"
+        ],
+        "why": "Vô lăng trơn, nguy hiểm khi lái",
+        "buyWhen": "Tuần đầu tiên sở hữu xe",
+        "priceRange": "200k - 600k",
+        "types": [
+            "Vỏ da thật (da bò, da lừa)",
+            "Da nhân tạo cao cấp",
+            "Vỏ chỉnh thể thao",
+            "Vỏ gen X, Aeroswift"
+        ],
+        "topBrand": [
+            "CARMOS",
+            "DAEWOO",
+            "Bellus"
+        ],
+        "durability": "3-7 năm",
+        "installation": "Cửa hàng (dán nóng), 30 phút"
+    },
+    {
+        "id": 3,
+        "name": "Tựa đầu ghế",
+        "priority": "SHOULD",
+        "icon": "🪑",
+        "description": "Hỗ trợ cột sống, giảm mệt lưng & cổ",
+        "benefits": [
+            "Giảm đau lưng, cổ khi lái xe dài",
+            "Hỗ trợ tư thế lái đúng",
+            "Tăng thoải mái trên xe",
+            "Bảo vệ ghế khỏi bẩn"
+        ],
+        "why": "Lái xe dài hay đau lưng, cần hỗ trợ",
+        "buyWhen": "Nếu lái xe >2h/ngày hoặc hay đau lưng",
+        "priceRange": "300k - 1M",
+        "types": [
+            "Tựa đầu ghế cao su",
+            "Tựa đầu ghế massage (pin)",
+            "Tựa ghế full body (ôm lưng + tựa đầu)"
+        ],
+        "topBrand": [
+            "HATNOA",
+            "TaoTao",
+            "CARVIA"
+        ],
+        "durability": "2-4 năm",
+        "installation": "Tự lắp được, 5 phút"
+    },
+    {
+        "id": 4,
+        "name": "Lót cửa",
+        "priority": "SHOULD",
+        "icon": "🚪",
+        "description": "Bảo vệ sơn cửa xe từ xước, va đập",
+        "benefits": [
+            "Bảo vệ sơn cửa khỏi xước",
+            "Tránh va đập khi mở cửa",
+            "Giảm tiếng ồn khi đóng cửa",
+            "Tăng thẩm mỹ cabin"
+        ],
+        "why": "Cửa xe dễ xước khi mở/đóng, sơn để ngoài",
+        "buyWhen": "Trong 1 tháng đầu tiên",
+        "priceRange": "150k - 500k",
+        "types": [
+            "Lót cửa cao su đơn giản",
+            "Lót cửa decal chống xước",
+            "Lót cửa full cabin (4 cửa)"
+        ],
+        "topBrand": [
+            "3M",
+            "TOTU",
+            "CARVIA"
+        ],
+        "durability": "2-3 năm",
+        "installation": "Tự dán được, 15 phút"
+    },
+    {
+        "id": 5,
+        "name": "Camera hành trình",
+        "priority": "MUST",
+        "icon": "📹",
+        "description": "Ghi hình lái xe để chứng cứ tai nạn & an ninh",
+        "benefits": [
+            "Chứng cứ tai nạn giao thông",
+            "Giảm tranh chấp bảo hiểm",
+            "Bảo mật xe khi đỗ",
+            "Theo dõi lái xe của nhân viên (nếu là xe công)"
+        ],
+        "why": "Tai nạn hay xảy ra, cần chứng cứ video",
+        "buyWhen": "Ngay sau khi mua xe (an toàn pháp lý)",
+        "priceRange": "500k - 2M",
+        "types": [
+            "Camera trước thường (1280p, 1080p)",
+            "Camera trước 4K, full HD",
+            "Camera 2 chiều (trước + sau)",
+            "Camera 3 chiều (trước + sau + cabin)",
+            "Camera GPS + WiFi"
+        ],
+        "topBrand": [
+            "VIOFO",
+            "Thinkware",
+            "PAPAGO",
+            "VIETMAP"
+        ],
+        "durability": "3-5 năm",
+        "installation": "Gắn kính chắn gió, 20-30 phút (dáy dây phức tạp)"
+    },
+    {
+        "id": 6,
+        "name": "Bảng điều khiển",
+        "priority": "NICE",
+        "icon": "📊",
+        "description": "Lót, che bảng điều khiển chống chói & trầy",
+        "benefits": [
+            "Chống chói nắng lúc lái xe",
+            "Bảo vệ bảng điều khiển khỏi nứt",
+            "Tăng thẩm mỹ cabin",
+            "Giảm tiếng ồn khi đóng cửa"
+        ],
+        "why": "Bảng điều khiển dễ bị nắng nóng gây nứt, chói mắt lái",
+        "buyWhen": "Trong 3 tháng đầu hoặc mùa hè",
+        "priceRange": "200k - 600k",
+        "types": [
+            "Lót bảng điều khiển nhung đơn giản",
+            "Lót bảng điều khiển da cao cấp",
+            "Thảm chống nắng đặc biệt",
+            "Lót full cabin (bảng điều khiển + tủ)"
+        ],
+        "topBrand": [
+            "TOTU",
+            "CARVIA",
+            "VIETMAP"
+        ],
+        "durability": "2-3 năm",
+        "installation": "Tự dán được, 30 phút"
+    },
+    {
+        "id": 7,
+        "name": "Túi lưới hàng",
+        "priority": "NICE",
+        "icon": "🧳",
+        "description": "Lưu trữ đồ, gọn gàng cabin",
+        "benefits": [
+            "Lưu trữ đồ dùng nhỏ, tiện lợi",
+            "Giữ cabin sạch sẽ, gọn gàng",
+            "Tránh đồ rơi/sượt khi lái",
+            "Dễ lắp, gỡ không cần công cụ"
+        ],
+        "why": "Cabin xe nhỏ, cần thêm chỗ lưu trữ đồ",
+        "buyWhen": "Khi cảm thấy cabin bừa bộn",
+        "priceRange": "100k - 300k",
+        "types": [
+            "Túi lưới sau ghế (treo phía sau ghế trước)",
+            "Túi lưới cửa (gắn trên cửa)",
+            "Túi lưới trần (lót trần xe)",
+            "Combo nhiều túi"
+        ],
+        "topBrand": [
+            "CARVIA",
+            "MAXPRO",
+            "Generic brand"
+        ],
+        "durability": "2-3 năm",
+        "installation": "Tự lắp được, 10 phút"
+    },
+    {
+        "id": 8,
+        "name": "Đèn nội thất",
+        "priority": "NICE",
+        "icon": "💡",
+        "description": "Đèn chiếu sáng cabin, tăng thẩm mỹ",
+        "benefits": [
+            "Đèn sáng rõ, an toàn lúc tối",
+            "Tăng thẩm mỹ cabin, nâng cấp ngoại hình",
+            "Tiếp khách ấn tượng (nếu là xe công)",
+            "Đèn LED tiết kiệm điện"
+        ],
+        "why": "Đèn xe thường tối, mặt tối, cần đèn phụ",
+        "buyWhen": "Khi muốn nâng cấp ngoại hình cabin",
+        "priceRange": "100k - 400k",
+        "types": [
+            "Đèn LED trần (từng ngôi, có thể tắt/bật)",
+            "Đèn LED dải (full trần, màu trắng/vàng/RGB)",
+            "Đèn LED cửa (sáng ra khi mở cửa)",
+            "Combo đèn trần + cửa"
+        ],
+        "topBrand": [
+            "CARVIA",
+            "MAXPRO",
+            "VIETMAP"
+        ],
+        "durability": "3-5 năm",
+        "installation": "Tự lắp được (đơn giản), 20-30 phút (phức tạp nếu nối dây)"
+    },
+    {
+        "id": 9,
+        "name": "Lót ghế",
+        "priority": "MUST",
+        "icon": "🪑",
+        "description": "Bảo vệ và nâng cấp ghế, tăng thoải mái",
+        "types": [
+            "Vải polyester",
+            "Da PU cao cấp",
+            "Da thật 100%",
+            "Nỉ nhung mịn",
+            "Lót ghế massage",
+            "Lót ghế heated",
+            "Combo ghế + tựa đầu + gối lưng"
+        ],
+        "buyWhen": "Ngay sau khi mua xe hoặc khi cần nâng cấp"
+    },
+    {
+        "id": 10,
+        "name": "Lót cốp",
+        "priority": "SHOULD",
+        "icon": "📦",
+        "description": "Bảo vệ cốp, chống trượt và ngấm nước",
+        "types": [
+            "Cao su đơn giản",
+            "Nhung cao cấp",
+            "3D fit cốp",
+            "Lót cốp có tấm chắn",
+            "Lót cốp có bề mặt texture"
+        ],
+        "buyWhen": "Khi cần bảo vệ cốp hoặc thường chở đồ bẩn"
+    },
+    {
+        "id": 11,
+        "name": "Gối lưng / Gối tựa",
+        "priority": "SHOULD",
+        "icon": "🛋️",
+        "description": "Hỗ trợ cột sống, giảm mệt mỏi khi lái",
+        "types": [
+            "Gối cao su dòng chảy",
+            "Gối massage điện",
+            "Gối memory foam",
+            "Gối vải linen",
+            "Gối nóng lạnh"
+        ],
+        "buyWhen": "Nếu thường lái xe dài hoặc đau lưng"
+    },
+    {
+        "id": 12,
+        "name": "Che nắng cửa",
+        "priority": "SHOULD",
+        "icon": "🪟",
+        "description": "Che nắng, giảm chói và giữ nhiệt cho cabin",
+        "types": [
+            "Che nắng cửa trượt (lưới)",
+            "Che nắng xếp accordion",
+            "Che nắng từ tính",
+            "Rèm cửa tự cuốn",
+            "Che nắng toàn bộ cửa"
+        ],
+        "buyWhen": "Mùa hè hoặc khi xe đậu ngoài nắng nhiều"
+    },
+    {
+        "id": 13,
+        "name": "Trang trí bảng điều khiển",
+        "priority": "NICE",
+        "icon": "🎨",
+        "description": "Decal/trim nâng cấp thẩm mỹ bảng điều khiển",
+        "types": [
+            "Decal carbon fiber",
+            "Decal wood pattern",
+            "Decal matte black",
+            "Decal metallic",
+            "Trim nhôm / inox"
+        ],
+        "buyWhen": "Khi muốn nâng cấp thẩm mỹ cabin"
+    },
+    {
+        "id": 14,
+        "name": "Nước hoa xe",
+        "priority": "NICE",
+        "icon": "🌸",
+        "description": "Tạo mùi dễ chịu trong xe, nhiều dạng và thời gian lưu hương",
+        "types": [
+            "Nước hoa bao nylon",
+            "Nước hoa gel",
+            "Nước hoa sáp",
+            "Nước hoa xịt phun",
+            "Diffuser tinh dầu"
+        ],
+        "buyWhen": "Khi muốn cải thiện mùi cabin hoặc làm chuyên nghiệp hơn"
+    },
+    {
+        "id": 15,
+        "name": "Móc treo đồ",
+        "priority": "NICE",
+        "icon": "🪝",
+        "description": "Tạo điểm treo tiện lợi cho đồ dùng cá nhân",
+        "types": [
+            "Móc treo trên ghế",
+            "Móc treo trên cửa",
+            "Móc treo cốp"
+        ],
+        "buyWhen": "Khi cabin cần thêm điểm treo, tổ chức đồ"
+    },
+    {
+        "id": 16,
+        "name": "Hộp lưu trữ",
+        "priority": "NICE",
+        "icon": "🗄️",
+        "description": "Hộp và ngăn lưu trữ tăng tính tổ chức cho xe",
+        "types": [
+            "Hộp dưới ghế",
+            "Hộp cốp",
+            "Hộp armrest"
+        ],
+        "buyWhen": "Khi cần gia tăng không gian lưu trữ gọn gàng"
+    },
+    {
+        "id": 17,
+        "name": "Cảm biến & Báo",
+        "priority": "MUST",
+        "icon": "🔔",
+        "description": "Thiết bị cảm biến an toàn và báo động cho xe",
+        "types": [
+            "Cảm biến áp suất lốp",
+            "Cảm biến độ ẩm",
+            "Báo động chống trộm"
+        ],
+        "buyWhen": "Ngay sau khi mua xe nếu cần bảo mật/giám sát"
+    },
+    {
+        "id": 18,
+        "name": "Gương chiếu hậu trong cabin",
+        "priority": "SHOULD",
+        "icon": "🪞",
+        "description": "Gương trong cabin cho quan sát và an toàn",
+        "types": [
+            "Gương phẳng",
+            "Gương phản chiếu rộng",
+            "Gương HD cao cấp"
+        ],
+        "buyWhen": "Khi cần cải thiện tầm nhìn hoặc thay thế hỏng"
+    },
+    {
+        "id": 19,
+        "name": "Ghế massage",
+        "priority": "NICE",
+        "icon": "💺",
+        "description": "Lót ghế massage/ghế massage full cho cảm giác thư giãn",
+        "types": [
+            "Ghế massage pin sạc",
+            "Ghế massage có sưởi ấm",
+            "Ghế massage full body"
+        ],
+        "buyWhen": "Khi muốn nâng cao trải nghiệm lái dài"
+    },
+    {
+        "id": 20,
+        "name": "Hệ thống âm thanh",
+        "priority": "SHOULD",
+        "icon": "🔊",
+        "description": "Nâng cấp âm thanh cho cabin: loa, amp, subwoofer",
+        "types": [
+            "Loa vệ tinh (Tweeters)",
+            "Loa mid-range",
+            "Subwoofer",
+            "Amplifier",
+            "Đầu DVD / Android box"
+        ],
+        "buyWhen": "Khi muốn cải thiện giải trí trên xe"
+    },
+    {
+        "id": 21,
+        "name": "Tấm cách âm",
+        "priority": "SHOULD",
+        "icon": "🧱",
+        "description": "Vật liệu cách âm giảm tiếng ồn và rung",
+        "types": [
+            "Cách âm tấm dày",
+            "Cách âm bọt",
+            "Cách âm cao cấp chuyên dụng"
+        ],
+        "buyWhen": "Khi cabin ồn hoặc muốn nâng cấp cách âm"
+    },
+    {
+        "id": 22,
+        "name": "Hệ thống chính hãng (OEM upgrades)",
+        "priority": "NICE",
+        "icon": "⚙️",
+        "description": "Nâng cấp các tính năng chính hãng như khóa, gương, cửa sổ",
+        "types": [
+            "Gương gập điện",
+            "Khóa điện tử",
+            "Cửa sổ điện tử"
+        ],
+        "buyWhen": "Khi muốn nâng cấp tính năng theo tiêu chuẩn OEM"
+    },
+    {
+        "id": 23,
+        "name": "Hệ thống khóa thông minh",
+        "priority": "MUST",
+        "icon": "🔐",
+        "description": "Khóa điện tử và tính năng khóa từ xa cho an toàn",
+        "types": [
+            "Khóa điện tử từ xa",
+            "Khóa cửa tự động"
+        ],
+        "buyWhen": "Ngay sau khi mua xe nếu muốn an ninh tốt hơn"
+    },
+    {
+        "id": 24,
+        "name": "Điều khiển trung tâm",
+        "priority": "MUST",
+        "icon": "🎛️",
+        "description": "Bảng điều khiển trung tâm và các nút điều khiển tiện ích",
+        "types": [
+            "Nút điều khiển kính",
+            "Nút gương chiếu hậu điều chỉnh điện",
+            "Cổng USB + 12V"
+        ],
+        "buyWhen": "Ngay khi cần bổ sung tính năng tiện ích"
+    },
+    {
+        "id": 25,
+        "name": "Cảm biến độ sáng tự động",
+        "priority": "NICE",
+        "icon": "🌞",
+        "description": "Tự điều chỉnh ánh sáng nội thất theo điều kiện môi trường",
+        "types": [
+            "Đèn nội thất tự tắt khi khóa",
+            "Đèn tự bật khi mở cửa"
+        ],
+        "buyWhen": "Khi muốn tiện nghi tự động cho đèn"
+    },
+    {
+        "id": 26,
+        "name": "Decal / Sticker trang trí",
+        "priority": "NICE",
+        "icon": "🎭",
+        "description": "Decal trang trí cho ngoại/ nội thất",
+        "types": [
+            "Decal viền cửa",
+            "Decal tay nắm cửa",
+            "Decal gương chiếu hậu",
+            "Decal logo"
+        ],
+        "buyWhen": "Khi muốn cá nhân hóa ngoại/ nội thất"
+    },
+    {
+        "id": 27,
+        "name": "Bọc nội thất",
+        "priority": "SHOULD",
+        "icon": "🧵",
+        "description": "Bọc vật liệu cho bảng, cửa, trần để thay đổi thẩm mỹ và bảo vệ",
+        "types": [
+            "Bọc bảng điều khiển",
+            "Bọc khung cửa",
+            "Bọc trần xe",
+            "Bọc cốp ngoài"
+        ],
+        "buyWhen": "Khi cần nâng cấp hoặc thay mới bề mặt nội thất"
+    },
+    {
+        "id": 28,
+        "name": "Lót cửa chuyên biệt",
+        "priority": "SHOULD",
+        "icon": "🧩",
+        "description": "Các loại lót cửa chuyên dụng: nhôm, carbon, nỉ",
+        "types": [
+            "Lót cửa nhôm",
+            "Lót cửa carbon fiber",
+            "Lót cửa nỉ"
+        ],
+        "buyWhen": "Khi muốn lựa chọn vật liệu chuyên biệt cho cửa"
+    }
 ]
