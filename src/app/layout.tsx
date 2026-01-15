@@ -1,6 +1,7 @@
 import './styles/globals.css';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
+import CompareBar from '../components/Product/CompareBar';
 
 export const metadata = {
   title: 'CarDecor Oto Affiliate',
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
+            <CompareBar />
           <Footer />
         </div>
       </body>

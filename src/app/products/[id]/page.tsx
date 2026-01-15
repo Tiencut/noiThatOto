@@ -9,6 +9,20 @@ async function getProduct(id: string) {
   return products.find((p: any) => p.id === id);
 }
 
+export async function generateMetadata({ params }: { params: { id: string } }) {
+  const product = await getProduct(params.id);
+  if (!product) return { title: 'Sản phẩm không tìm thấy' };
+  return {
+    title: product.name,
+    description: product.description || 'Phụ kiện ô tô',
+    openGraph: {
+      title: product.name,
+      description: product.description,
+      images: [product.image?.thumb || product.image?.full]
+    }
+  };
+}
+
 export default async function ProductDetail({ params }: { params: Promise<{ id: string }> }) {
   // `params` may be a sync/awaitable object in some Next.js setups — await to satisfy framework requirements
   const { id } = await Promise.resolve(params) as { id: string };
@@ -20,6 +34,22 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
 
   return (
     <div className="bg-white p-6 rounded shadow">
+      {/* Structured data for SEO */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        name: product.name,
+        image: product.image?.full || product.image?.thumb || [],
+        description: product.description,
+        sku: product.id,
+        brand: { "@type": "Brand", name: product.brand || product.affiliate?.brand || '' },
+        offers: {
+          "@type": "AggregateOffer",
+          priceCurrency: "VND",
+          lowPrice: (product.price?.shopee ?? product.price?.lazada ?? product.price?.tiktok ?? 0),
+          offerCount: 3
+        }
+      }) }} />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <img src={product.image.full} alt={product.name} className="w-full rounded" />
