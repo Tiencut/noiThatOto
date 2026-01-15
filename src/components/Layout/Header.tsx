@@ -11,7 +11,6 @@ export default function Header() {
           <Link href="/products" prefetch={true} className="text-sm text-gray-700">Sản phẩm</Link>
           <Link href="/car-models" prefetch={true} className="text-sm text-gray-700">Model xe</Link>
           <Link href="/car-brands" prefetch={true} className="text-sm text-gray-700">Hãng xe</Link>
-          <Link href="/admin" className="text-sm text-red-600 font-medium">Admin</Link>
           <form action="/products" method="get" className="hidden sm:block">
             <input name="q" placeholder="Tìm sản phẩm" aria-label="Tìm sản phẩm" className="border rounded px-2 py-1" />
           </form>

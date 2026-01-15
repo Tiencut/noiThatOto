@@ -9,8 +9,9 @@ async function getProduct(id: string) {
   return products.find((p: any) => p.id === id);
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const product = await getProduct(params.id);
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> | { id: string } }) {
+  const resolved = await Promise.resolve(params) as { id: string };
+  const product = await getProduct(resolved.id);
   if (!product) return { title: 'Sản phẩm không tìm thấy' };
   return {
     title: product.name,
